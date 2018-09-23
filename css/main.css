@@ -1,0 +1,121 @@
+
+/* for the fonts damn it, and if you need boldness 
+(don't do it) add it to html
+font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+/* (: GENERAL :) */
+
+body{
+	font-family: 'Oswald', sans-serif;
+	color: #212121;
+	line-height: 1.4;
+}
+
+/* (: HEADER :) */
+
+header {
+	padding: 1.5rem 5%;
+	background-color: #c60b1e;
+}
+
+.logo {
+	font-family: 'Merriweather', serif;
+	font-size: 1.5rem;
+	color: #332925;
+
+}
+
+.menu a {
+	border: inset #332925;
+	border-radius: 1rem;
+	padding: .5rem 5%;
+	color: #ffc400;
+	background-color: #332925;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	border: inset #ffc400;
+	border-radius: 1rem;
+	padding: .5rem 5%;
+	color: #332925;
+	background-color: #ffc400;
+	text-decoration: none;	
+}
+
+/* (: GENERAL MAIN CONTENT :)*/
+
+main {
+	padding: 3rem 5%;
+}
+
+main h1 {
+	font-family: 'Merriweather', serif;
+	font-size: 2rem;
+}
+
+main h2 {
+	font-family: 'Merriweather', serif;
+	font-size: 1.7rem;
+}
+
+main h3 {
+	font-family: 'Merriweather', serif;
+	font-size: 1.4rem;
+}
+
+main h4 {
+	font-family: 'Merriweather', serif;
+	font-size: 1.2rem;
+	line-height: 1rem;
+}
+
+main p {
+	font-size: 1rem;
+}
+
+main li {
+	font-size: 1rem;
+}
+/* (: COLUMN LEFT :); */
+
+.col-left img {
+	width: 100%;
+}
+
+/* (: COLUMN RIGHT :) */
+
+/* this will be added later don't worry */
+
+/* (: INNER COLUMN :) */
+
+.ingredients ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.ingredients li {
+	padding: .5rem 0;
+	border-top: 1px dotted #bdbdbd;
+}
+
+/* (: FOOOTER :) */
+footer {
+	padding: 1.5rem 5%;
+	background-color: #bdbdbd;
+}
+
+footer p {
+	font-family: 'Merriweather', serif;
+	margin: 0;
+	color: #757575;
+}
+
+footer a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
