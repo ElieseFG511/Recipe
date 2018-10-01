@@ -16,8 +16,9 @@ body{
 /* (: HEADER :) */
 
 header {
-	padding: 1.5rem 5%;
+	padding: 1rem 5%;
 	background-color: #c60b1e;
+	overflow: hidden;
 }
 
 .logo {
@@ -28,32 +29,42 @@ header {
 }
 
 .menu a {
-	border: inset #332925;
-	border-radius: 1rem;
-	padding: .5rem 5%;
 	color: #ffc400;
-	background-color: #332925;
 	text-decoration: none;
+	padding-top: 1.5rem;
 }
 
-.menu a:hover {
-	border: inset #ffc400;
-	border-radius: 1rem;
-	padding: .5rem 5%;
-	color: #332925;
-	background-color: #ffc400;
-	text-decoration: none;	
+.menu img {
+	height: 1.5rem;
 }
 
+@media screen and (min-width: 40em){
+	.logo{
+		width: 40%;
+		float: left;
+	}
+	.menu{
+		width: 5%;
+		float: right;
+	}
+}
 /* (: GENERAL MAIN CONTENT :)*/
+
 
 main {
 	padding: 3rem 5%;
+	overflow: hidden;
 }
 
 main h1 {
 	font-family: 'Merriweather', serif;
-	font-size: 2rem;
+	font-size: 1.7rem;
+}
+
+@media screen and (min-width: 40em) {
+	main h1 {
+		font-size: 4rem;
+	}
 }
 
 main h2 {
@@ -79,6 +90,13 @@ main p {
 main li {
 	font-size: 1rem;
 }
+
+@media screen and (min-width: 40em){
+	.col-left {
+		width: 30%;
+		float: left;
+	}
+}
 /* (: COLUMN LEFT :); */
 
 .col-left img {
@@ -87,10 +105,18 @@ main li {
 
 /* (: COLUMN RIGHT :) */
 
-/* this will be added later don't worry */
+@media screen and (min-width: 40em){
+	.col-right {
+		width: 65%;
+		float: right;
+	}
+}
 
 /* (: INNER COLUMN :) */
 
+.ingredients {
+	overflow: hidden;
+}
 .ingredients ul {
 	margin: 0;
 	padding: 0;
@@ -99,6 +125,13 @@ main li {
 .ingredients li {
 	padding: .5rem 0;
 	border-top: 1px dotted #bdbdbd;
+}
+@media screen and (min-width: 40em){
+	.ingredient{
+		width: 45%;
+		float: left;
+		margin-right: 5%;
+	}
 }
 
 /* (: FOOOTER :) */
